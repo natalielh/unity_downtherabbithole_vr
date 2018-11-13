@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: 63b9e1866d6ba4697a76e53b02c1c563
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: mid_term:extrudedSurface2
+    100004: mid_term:extrudedSurface3
+    100006: mid_term:group17
+    100008: mid_term:group18
+    100010: mid_term:group19
+    100012: mid_term:group20
+    100014: mid_term:group21
+    100016: mid_term:group22
+    100018: mid_term:loftedSurface1
+    100020: mid_term:loftedSurface2
+    100022: mid_term:pCube1
+    100024: mid_term:pCube2
+    100026: mid_term:pCube5
+    100028: mid_term:pCube7
+    100030: mid_term:pCylinder1
+    100032: mid_term:pCylinder2
+    100034: mid_term:pCylinder3
+    100036: mid_term:pCylinder4
+    100038: mid_term:pCylinder7
+    100040: mid_term:pCylinder8
+    100042: mid_term:pCylinder9
+    100044: mid_term:pSphere1
+    100046: mid_term:pTorus5
+    100048: mid_term:pTorus6
+    100050: mid_term:revolvedSurface1
+    100052: mid_term:revolvedSurface2
+    100054: mid_term:revolvedSurface2 1
+    100056: mid_term:revolvedSurface3
+    100058: mid_term:revolvedSurface4
+    100060: mid_term:revolvedSurface5
+    100062: mid_term:transform30
+    100064: mid_term:transform31
+    100066: mid_term:transform32
+    100068: mid_term:transform33
+    100070: mid_term:transform34
+    100072: mid_term:transform35
+    100074: mid_term:transform36
+    100076: mid_term:transform37
+    100078: mid_term:transform38
+    100080: mid_term:transform39
+    100082: mid_term:transform40
+    100084: mid_term:transform41
+    100086: mid_term:transform42
+    100088: mid_term:transform43
+    100090: mid_term:transform44
+    100092: mid_term:transform45
+    400000: //RootNode
+    400002: mid_term:extrudedSurface2
+    400004: mid_term:extrudedSurface3
+    400006: mid_term:group17
+    400008: mid_term:group18
+    400010: mid_term:group19
+    400012: mid_term:group20
+    400014: mid_term:group21
+    400016: mid_term:group22
+    400018: mid_term:loftedSurface1
+    400020: mid_term:loftedSurface2
+    400022: mid_term:pCube1
+    400024: mid_term:pCube2
+    400026: mid_term:pCube5
+    400028: mid_term:pCube7
+    400030: mid_term:pCylinder1
+    400032: mid_term:pCylinder2
+    400034: mid_term:pCylinder3
+    400036: mid_term:pCylinder4
+    400038: mid_term:pCylinder7
+    400040: mid_term:pCylinder8
+    400042: mid_term:pCylinder9
+    400044: mid_term:pSphere1
+    400046: mid_term:pTorus5
+    400048: mid_term:pTorus6
+    400050: mid_term:revolvedSurface1
+    400052: mid_term:revolvedSurface2
+    400054: mid_term:revolvedSurface2 1
+    400056: mid_term:revolvedSurface3
+    400058: mid_term:revolvedSurface4
+    400060: mid_term:revolvedSurface5
+    400062: mid_term:transform30
+    400064: mid_term:transform31
+    400066: mid_term:transform32
+    400068: mid_term:transform33
+    400070: mid_term:transform34
+    400072: mid_term:transform35
+    400074: mid_term:transform36
+    400076: mid_term:transform37
+    400078: mid_term:transform38
+    400080: mid_term:transform39
+    400082: mid_term:transform40
+    400084: mid_term:transform41
+    400086: mid_term:transform42
+    400088: mid_term:transform43
+    400090: mid_term:transform44
+    400092: mid_term:transform45
+    2100000: mid_term_blinn18
+    2100002: mid_term_phong9
+    2300000: mid_term:revolvedSurface2
+    3300000: mid_term:revolvedSurface2
+    4300000: mid_term:revolvedSurface2
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
