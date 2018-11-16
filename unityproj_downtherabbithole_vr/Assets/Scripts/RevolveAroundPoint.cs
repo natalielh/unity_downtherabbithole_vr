@@ -10,12 +10,12 @@ public class RevolveAroundPoint : MonoBehaviour {
     [Range(-20.0f, 20.0f)]
     public float degrees_per_second;
 
-    public Vector3 point;
+    public Vector3 point = new Vector3();
 
     // Use this for initialization
     void Start () {
 
-        point = new Vector3(0,0,0);
+        //point = new Vector3(0,0,0);
 
 	}
 	

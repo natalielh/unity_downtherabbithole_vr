@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SimpleRotate : MonoBehaviour {
 
-    [Range(-20.0f, 20.0f)]
+    [Range(-40.0f, 40.0f)]
     public float degrees_per_second;
 
 	// Use this for initialization
