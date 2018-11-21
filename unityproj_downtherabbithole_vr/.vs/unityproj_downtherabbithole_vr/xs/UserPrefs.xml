@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{9F636487-1986-54E4-5E97-4A73603BB842}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SineBounce.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/RevolveAroundPoint.cs">
     <Files>
       <File FileName="Assets/Scripts/SimpleFall.cs" Line="23" Column="1" />
       <File FileName="Assets/Scripts/SimpleRotate.cs" Line="23" Column="1" />
