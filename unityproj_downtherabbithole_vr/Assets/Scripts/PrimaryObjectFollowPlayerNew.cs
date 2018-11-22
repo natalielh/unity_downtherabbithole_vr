@@ -10,6 +10,8 @@ public class PrimaryObjectFollowPlayerNew : MonoBehaviour {
     // flag indicating whether or not the event has happened
     private bool passed = false;
 
+    // number of seconds that the object will follow player
+    [Range(0.0f, 60.0f)]
     public float seconds = 10.0f;
 
     Transform parent_original_transform;
