@@ -5,7 +5,7 @@ using UnityEngine;
 public class SimpleFall : MonoBehaviour {
 
     //NOTE: "ideal" VR fall speed is -0.15
-    [Range(-3.0f, 3.0f)]
+    [Range(-3.0f, 0.0f)]
     public float speed;
 
     // Use this for initialization
