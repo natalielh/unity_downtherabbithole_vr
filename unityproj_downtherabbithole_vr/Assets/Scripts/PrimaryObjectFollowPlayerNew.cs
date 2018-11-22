@@ -10,7 +10,9 @@ public class PrimaryObjectFollowPlayerNew : MonoBehaviour {
     // flag indicating whether or not the event has happened
     private bool passed = false;
 
-    public readonly float seconds = 5.0f;
+    public float seconds = 10.0f;
+
+    Transform parent_original_transform;
 
     // Use this for initialization
     void Start () {
@@ -21,17 +23,21 @@ public class PrimaryObjectFollowPlayerNew : MonoBehaviour {
 	void Update () {
 		
         if(!passed && player_transform_input.transform.position.y <= this.transform.position.y){
-        
+
+            // save the original parent transform so we can revert later
+            parent_original_transform = this.transform.parent;
             this.transform.parent = player_transform_input.transform;
 
-            Invoke("ChangeParentToNull", seconds);
+            Invoke("ChangeParentToOriginal", seconds);
 
+            // set flag to true
             passed = true;
         }
 
 	}
 
-    void ChangeParentToNull(){
-        this.transform.parent = null;
+    void ChangeParentToOriginal(){
+        //revert
+        this.transform.parent = parent_original_transform;
     }
 }
