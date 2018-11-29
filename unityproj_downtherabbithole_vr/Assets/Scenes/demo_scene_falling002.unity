@@ -2050,7 +2050,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: CINEMA_4D_Main
+          m_StringArgument: recordPlayerMovement
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
@@ -19986,7 +19986,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: CINEMA_4D_Main
+          m_StringArgument: bookMovement
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
@@ -73122,7 +73122,7 @@ Transform:
   - {fileID: 2135234401}
   m_Father: {fileID: 60895787}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 23.040386, z: 0}
 --- !u!1 &1961378081
 GameObject:
   m_ObjectHideFlags: 0
@@ -74185,7 +74185,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 60895787}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 15.212015, z: 0}
 --- !u!23 &1984012945
 MeshRenderer:
   m_ObjectHideFlags: 0
