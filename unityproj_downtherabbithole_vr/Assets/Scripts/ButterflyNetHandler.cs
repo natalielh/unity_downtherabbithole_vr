@@ -21,11 +21,6 @@ public class ButterflyNetHandler : MonoBehaviour {
         // upon loading game, # of caught butterflies is ALWAYS reset back to 0
         caught_butterflies = 0;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
     private void OnTriggerEnter(Collider other)
     {

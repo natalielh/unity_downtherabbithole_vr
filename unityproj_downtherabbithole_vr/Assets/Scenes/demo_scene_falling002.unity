@@ -68344,6 +68344,12 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 114391369613345312, guid: 850903b06194b4bbfa8e6fab0d14d934,
+        type: 2}
+      propertyPath: prefab_caught_butterfly
+      value: 
+      objectReference: {fileID: 1401021597430788, guid: 70273134b26fd4d91bc95746c858b6b6,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 850903b06194b4bbfa8e6fab0d14d934, type: 2}
   m_IsPrefabAsset: 0
