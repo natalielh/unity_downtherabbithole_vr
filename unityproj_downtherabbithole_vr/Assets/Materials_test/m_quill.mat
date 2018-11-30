@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: m_quill_fog
+  m_Name: m_quill
   m_Shader: {fileID: 4800000, guid: d32f274bb5ae140cea5aebfafba3d357, type: 3}
   m_ShaderKeywords: _ENABLEFOG_ON
   m_LightmapFlags: 4
