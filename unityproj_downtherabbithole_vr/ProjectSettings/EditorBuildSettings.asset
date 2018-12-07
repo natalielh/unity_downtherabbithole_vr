@@ -5,19 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 0
-    path: Assets/VRTK/Examples/[005 - Interactions] InteractableObjects.unity
-    guid: bece393a6b2458142935d8d7562c52d7
-  - enabled: 0
-    path: Assets/Scenes/demo_scene_falling001.unity
-    guid: 97fcc0a4028104acfa5ee9a43cb117b2
   - enabled: 1
-    path: Assets/Interaction Test/test.unity
-    guid: c854efd6f6eb64954800454cc31f9abd
+    path: Assets/Scenes/Intro-test.unity
+    guid: f019e43ef83d8a841aee9597d1ce35d7
   - enabled: 1
-    path: Assets/Scenes/demo_scene_falling002.unity
-    guid: 54725b6e7785248abb0e5f3589af588c
+    path: Assets/Scenes/demo_scene_falling003.unity
+    guid: d751c5d0bca219b40856d68fde1fcd83
+  - enabled: 1
+    path: Assets/Scenes/Outro-test.unity
+    guid: 85676111ebcbd2b4c901fab3cfacae0c
   m_configObjects: {}

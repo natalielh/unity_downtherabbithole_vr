@@ -5,6 +5,7 @@ using UnityEngine;
 public class SimpleFallDisabler : MonoBehaviour {
 
     public GameObject player_transform_input;
+    // public GameObject object_audio_source;
 
     private bool passed = false;
 
@@ -23,6 +24,9 @@ public class SimpleFallDisabler : MonoBehaviour {
 
             // set flag to true
             passed = true;
+
+            // object_audio_source.GetComponent<AudioSource>().Play(0);
+            // Debug.Log("DEBUG: BEDROOM AUDIO SOURCE HAS STARTED PLAYING");
         }
 
     }

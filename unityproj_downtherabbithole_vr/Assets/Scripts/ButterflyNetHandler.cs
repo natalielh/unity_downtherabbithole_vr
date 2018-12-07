@@ -13,13 +13,18 @@ public class ButterflyNetHandler : MonoBehaviour {
     // prefab for caught butterflies that are still and do not have a collider
     public GameObject prefab_caught_butterfly;
     // max distance away from the center_placement point the 'caught' butterfly will be instantiated in the net area
-    [Range(0.01f, 0.5f)]
+    [Range(0.01f, 0.3f)]
     public float max_spawn_radius;
 
 	// Use this for initialization
 	void Start () {
         // upon loading game, # of caught butterflies is ALWAYS reset back to 0
         caught_butterflies = 0;
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		
 	}
 
     private void OnTriggerEnter(Collider other)
@@ -41,17 +46,19 @@ public class ButterflyNetHandler : MonoBehaviour {
 
         // create transform coordinates to be set
         Vector3 new_local_coordinates = new Vector3();
-        new_local_coordinates = (max_spawn_radius * Random.insideUnitSphere);
+        new_local_coordinates = ((max_spawn_radius * Random.insideUnitSphere));
+        Debug.Log("NEW COORDINATES GENERATED: " + new_local_coordinates);
+
 
         //Transform new_local_transform = new Transform;
         //new_local_transform.position = new_local_coordinates;
 
         // Instantiate(Object original, Vector3 position, Quaternion rotation);
+        // clone_butterfly = Instantiate(prefab_caught_butterfly, new_local_coordinates, transform.rotation);
         clone_butterfly = Instantiate(prefab_caught_butterfly);
 
         // move this object so it's a child of the butterfly net object (SET PARENT)
         clone_butterfly.transform.parent = center_placement.transform;
-        // set new local transform
         clone_butterfly.transform.localPosition = new_local_coordinates;
     }
 

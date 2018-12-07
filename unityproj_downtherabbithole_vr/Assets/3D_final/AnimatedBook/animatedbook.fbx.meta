@@ -48,8 +48,8 @@ ModelImporter:
     4300004: Plane_3
     4300006: Plane_5
     4300008: Plane_7
-    7400000: bookDefault
-    7400002: bookMovement
+    7400000: bookOpen
+    7400002: bookDefault
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -80,10 +80,10 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: bookDefault
+      name: bookOpen
       takeName: CINEMA_4D_Main
-      firstFrame: 0
-      lastFrame: 0
+      firstFrame: 1
+      lastFrame: 90
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -108,17 +108,17 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: bookMovement
+      name: bookDefault
       takeName: CINEMA_4D_Main
       firstFrame: 0
-      lastFrame: 90
+      lastFrame: 1
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -179,6 +179,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1

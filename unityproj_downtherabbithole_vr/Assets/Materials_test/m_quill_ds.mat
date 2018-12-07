@@ -8,7 +8,7 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: m_quill_ds
   m_Shader: {fileID: 4800000, guid: d32f274bb5ae140cea5aebfafba3d357, type: 3}
-  m_ShaderKeywords: _ENABLEFOG_ON
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -60,7 +60,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _EnableFog: 1
+    - _EnableFog: 0
     - _EnableTransparency: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5

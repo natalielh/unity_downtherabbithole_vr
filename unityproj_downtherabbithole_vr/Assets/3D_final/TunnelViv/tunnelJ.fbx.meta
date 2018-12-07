@@ -1,0 +1,230 @@
+fileFormatVersion: 2
+guid: b37e42bbfb27c2145a3101fd5171d084
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: bookshelf_B
+    100002: bookshelf_cool
+    100004: bookshelf_warm
+    100006: mirror_A
+    100008: mirror_B
+    100010: mirror_B1
+    100012: mirror_C
+    100014: painting_D
+    100016: painting_E
+    100018: paintingA
+    100020: paintingB
+    100022: paintingC
+    100024: paintingC1
+    100026: shelf_empty
+    100028: shelf_empty_C
+    100030: shelf_empty_tall
+    100032: transform15
+    100034: transform16
+    100036: transform18
+    100038: transform18 1
+    100040: transform18 2
+    100042: transform25
+    100044: transform38
+    100046: transform38 1
+    100048: transform40
+    100050: transform62
+    100052: transform63
+    100054: transform64
+    100056: transform65
+    100058: transform66
+    100060: transform67
+    100062: Tube
+    100064: Tube 1
+    100066: Tube_1
+    100068: Tube_2
+    100070: Tube_3
+    100072: Tube_4
+    100074: Tube_5
+    100076: Tube_6
+    100078: //RootNode
+    400000: bookshelf_B
+    400002: bookshelf_cool
+    400004: bookshelf_warm
+    400006: mirror_A
+    400008: mirror_B
+    400010: mirror_B1
+    400012: mirror_C
+    400014: painting_D
+    400016: painting_E
+    400018: paintingA
+    400020: paintingB
+    400022: paintingC
+    400024: paintingC1
+    400026: shelf_empty
+    400028: shelf_empty_C
+    400030: shelf_empty_tall
+    400032: transform15
+    400034: transform16
+    400036: transform18
+    400038: transform18 1
+    400040: transform18 2
+    400042: transform25
+    400044: transform38
+    400046: transform38 1
+    400048: transform40
+    400050: transform62
+    400052: transform63
+    400054: transform64
+    400056: transform65
+    400058: transform66
+    400060: transform67
+    400062: Tube
+    400064: Tube 1
+    400066: Tube_1
+    400068: Tube_2
+    400070: Tube_3
+    400072: Tube_4
+    400074: Tube_5
+    400076: Tube_6
+    400078: //RootNode
+    2100000: lambert2
+    2100002: lambert3
+    2100004: lambert4
+    2100006: lambert5
+    2100008: phong1
+    2100010: lambert6
+    2100012: lambert7
+    2100014: lambert8
+    2100016: lambert1
+    2300000: bookshelf_B
+    2300002: bookshelf_cool
+    2300004: bookshelf_warm
+    2300006: mirror_A
+    2300008: mirror_B
+    2300010: mirror_B1
+    2300012: mirror_C
+    2300014: painting_D
+    2300016: painting_E
+    2300018: paintingA
+    2300020: paintingB
+    2300022: paintingC
+    2300024: paintingC1
+    2300026: shelf_empty
+    2300028: shelf_empty_C
+    2300030: shelf_empty_tall
+    2300032: Tube_6
+    3300000: bookshelf_B
+    3300002: bookshelf_cool
+    3300004: bookshelf_warm
+    3300006: mirror_A
+    3300008: mirror_B
+    3300010: mirror_B1
+    3300012: mirror_C
+    3300014: painting_D
+    3300016: painting_E
+    3300018: paintingA
+    3300020: paintingB
+    3300022: paintingC
+    3300024: paintingC1
+    3300026: shelf_empty
+    3300028: shelf_empty_C
+    3300030: shelf_empty_tall
+    3300032: Tube_6
+    4300000: painting_D
+    4300002: mirror_A
+    4300004: painting_E
+    4300006: mirror_C
+    4300008: shelf_empty
+    4300010: shelf_empty_C
+    4300012: paintingB
+    4300014: bookshelf_B
+    4300016: paintingA
+    4300018: paintingC
+    4300020: shelf_empty_tall
+    4300022: bookshelf_cool
+    4300024: mirror_B
+    4300026: Tube_6
+    4300028: bookshelf_warm
+    4300030: mirror_B1
+    4300032: paintingC1
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -25,10 +25,10 @@ public class animController : MonoBehaviour {
 	
 
 		if (Input.GetKeyDown ("1")) {
-			anim.Play ("ballUp");
+			anim.Play ("bookOpen");
             Debug.Log("ballUp anim playing");
 		} else if (Input.GetKeyDown ("2")) {
-			anim.Play ("ballDefault");
+			anim.Play ("bookDefault");
             Debug.Log("ballDefault anim playing");
 		}
 
@@ -39,7 +39,7 @@ public class animController : MonoBehaviour {
 
     public void playAnim()
     {
-        anim.Play("ballUp");
+        anim.Play("bookOpen");
         Debug.Log("ballUp anim playing");
     }
 }
