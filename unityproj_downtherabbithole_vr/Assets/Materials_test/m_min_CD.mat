@@ -135,13 +135,13 @@ Material:
     - _ShowBottom: 1
     - _ShowColorCorrection: 0
     - _ShowCustomShading: 1
-    - _ShowFog: 1
+    - _ShowFog: 0
     - _ShowFront: 1
     - _ShowGlobalGradientSettings: 0
     - _ShowLMap: 0
     - _ShowLeft: 1
     - _ShowRight: 1
-    - _ShowTexture: 1
+    - _ShowTexture: 0
     - _ShowTop: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
