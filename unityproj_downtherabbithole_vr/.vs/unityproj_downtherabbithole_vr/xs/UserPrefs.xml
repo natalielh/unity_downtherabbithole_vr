@@ -1,9 +1,11 @@
 ﻿<Properties StartupConfiguration="{9F636487-1986-54E4-5E97-4A73603BB842}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SineBounce.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Shaders/QuillShaderStencil.shader">
     <Files>
-      <File FileName="Assets/Scripts/PrimaryObjectFollowPlayerNew.cs" Line="46" Column="1" />
-      <File FileName="Assets/Scripts/SineBounce.cs" Line="4" Column="1" />
+      <File FileName="Assets/Shaders/ShadersStencil/StencilShaders/Masks/StencilMaskID.shader" Line="121" Column="1" />
+      <File FileName="Assets/Shaders/ShadersStencil/StencilShaders/Standard/StandardSurfaceShader.shader" Line="1" Column="15" />
+      <File FileName="Assets/Shaders/ShadersStencil/StencilShaders/Legacy/Stencil_Legacy_Reflect-Normal-Spec.shader" Line="1" Column="1" />
+      <File FileName="Assets/Shaders/QuillShaderStencil.shader" Line="2" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
