@@ -12683,6 +12683,7 @@ GameObject:
   m_Component:
   - component: {fileID: 297742463}
   - component: {fileID: 297742464}
+  - component: {fileID: 297742465}
   m_Layer: 0
   m_Name: RightEyeAnchor
   m_TagString: Untagged
@@ -12743,6 +12744,18 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &297742465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 297742462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 11400000, guid: e4be685ba089d4a62bb7c492395c7c16, type: 2}
 --- !u!1 &297845117
 GameObject:
   m_ObjectHideFlags: 0
@@ -33648,6 +33661,7 @@ GameObject:
   - component: {fileID: 811753495}
   - component: {fileID: 811753497}
   - component: {fileID: 811753496}
+  - component: {fileID: 811753498}
   m_Layer: 0
   m_Name: CenterEyeAnchor
   m_TagString: MainCamera
@@ -33715,6 +33729,18 @@ AudioListener:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 811753494}
   m_Enabled: 1
+--- !u!114 &811753498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 811753494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 11400000, guid: e4be685ba089d4a62bb7c492395c7c16, type: 2}
 --- !u!1 &815941608
 GameObject:
   m_ObjectHideFlags: 0
@@ -90775,6 +90801,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1749137145}
   - component: {fileID: 1749137146}
+  - component: {fileID: 1749137147}
   m_Layer: 0
   m_Name: LeftEyeAnchor
   m_TagString: MainCamera
@@ -90835,6 +90862,18 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1749137147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1749137144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 11400000, guid: e4be685ba089d4a62bb7c492395c7c16, type: 2}
 --- !u!1 &1749305950
 GameObject:
   m_ObjectHideFlags: 0
