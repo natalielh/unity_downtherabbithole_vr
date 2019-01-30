@@ -11,7 +11,7 @@ public class SineBounce : MonoBehaviour {
 
     //adjust this to change how high it goes
     //0.05f
-    [Range(0.0f, 0.1f)]
+    [Range(0.0f, 0.01f)]
     public float height;
 
     //public float origY;
@@ -38,7 +38,7 @@ public class SineBounce : MonoBehaviour {
         //float newY = height * Mathf.Sin(Time.time * speed);
         //transform.position = new Vector3(transform.position.x, origY + newY, transform.position.z);
 
-        transform.Translate(Vector3.up * height * Mathf.Sin(Time.time * speed));
+        transform.Translate(Vector3.up * height * Mathf.Sin(Time.time * speed), Space.World);
 
     }
 }
