@@ -40,7 +40,7 @@ public class RotateAllAxes : MonoBehaviour {
         //// ...also rotate around the World's Y axis
         //transform.Rotate(Vector3.up * Time.deltaTime, Space.World);
 
-        transform.Rotate(rotation_speed * Time.deltaTime, Space.World);
+        transform.Rotate(rotation_speed * Time.deltaTime, Space.Self);
 
     }
 }
