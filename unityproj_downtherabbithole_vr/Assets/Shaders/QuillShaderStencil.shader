@@ -95,7 +95,8 @@
                 float4 col = i.color;
 
                 #ifdef _ENABLEFOG_ON
-                UNITY_APPLY_FOG(i.fogCoord, col);
+                //UNITY_APPLY_FOG(i.fogCoord, col);
+                UNITY_APPLY_FOG_COLOR(i.fogCoord, col, fixed4(0.4,0.2,0.4,0));
                 #endif
 
                 #ifdef _ENABLETRANSPARENCY_ON
